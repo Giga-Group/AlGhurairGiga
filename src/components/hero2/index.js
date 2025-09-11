@@ -18,7 +18,7 @@ class Hero2 extends Component {
         const {
             heroClass = '',
             showContactForm = true,
-            title = 'Giga Group',
+            title = 'Al Ghurair Giga Pakistan',
             subtitle = 'From luxury residences to world-class commercial spaces. 70 years of delivering iconic developments across Pakistan and the UAE.',
             showTitle = true,
             showSubtitle = true,

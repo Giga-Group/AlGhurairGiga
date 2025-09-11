@@ -21,15 +21,15 @@ const Footer = (props) =>{
                             <div className="logo widget-title">
                                 <Link onClick={ClickHandler} className="logo" to="/"><img src={Logo} alt=""/></Link>
                             </div>
-                            <p>Giga Group is a leading real estate developer with 70 years of excellence. Creating iconic developments from luxury residences to world-class commercial spaces across Pakistan and the UAE.</p>
+                            <p>Pakistan's largest developer of high-rise communities, formed through a joint venture of Al Ghurair and Giga Group, renowned U.A.E. conglomerates with a diverse portfolio in banking, gold, textiles, mining, and power.</p>
                             <ul>
                                 <li>
-                                    <a href="https://www.facebook.com/GigaGroupPakistan/" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.facebook.com/AGGPPL/" target="_blank" rel="noopener noreferrer">
                                         <i className="ti-facebook"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/gigagrouppakistan" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.instagram.com/alghurairgiga" target="_blank" rel="noopener noreferrer">
                                         <i className="ti-instagram"></i>
                                     </a>
                                 </li>
@@ -76,8 +76,8 @@ const Footer = (props) =>{
                                 <ul>
                                     <li><i className="fi flaticon-location"></i>Giga City, Defence Housing Authority <br/> 
                                     Phase II Islamabad, Pakistan-44000</li>
-                                    <li><i className="fi flaticon-telephone"></i>+92 (51) 111 786 123</li>
-                                    <li><i className="fi flaticon-email"></i>info@gigagroup.com</li>
+                                    <li><i className="fi flaticon-telephone"></i>+92 (51) 111 244 244</li>
+                                    <li><i className="fi flaticon-email"></i>customercare@alghurairgiga.com</li>
                                 </ul>
                             </div>
                         </div>
@@ -103,7 +103,7 @@ const Footer = (props) =>{
                 <div className="row">
                     <div className="col col-xs-12">
                         <ul>
-                            <li>&copy; 2025 Giga Group. All Rights Reserved.</li>
+                            <li>&copy; 2025 Al Ghurair Giga Pakistan Pvt Ltd. All Rights Reserved.</li>
                             <li><Link onClick={ClickHandler} to="/">Terms of use |</Link> <Link onClick={ClickHandler} to="/">Privacy Environmental Policy</Link></li>
                         </ul>
                     </div>
