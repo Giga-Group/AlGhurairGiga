@@ -38,7 +38,7 @@ const HomePage2 =() => {
                 mobileVideoUrl = 'https://www.youtube.com/embed/bDnmFZQ-xJU?autoplay=1&mute=1&loop=1&playlist=bDnmFZQ-xJU&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3'
             />
             <About2/>
-            <ServiceSection sClass={'section-bg'}/>
+            {/* <ServiceSection sClass={'section-bg'}/> */}
             <ProjectSectionS2/>
             {/* <TeamSection/> */}
             <VideoTestimonials/>
