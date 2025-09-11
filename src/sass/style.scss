@@ -1,0 +1,251 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:     Giga Group Pakistan - Real Estate Development
+Version:        1.0.0
+-------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1. General
+	1.1 Theme Reset Style
+	1.2 Global Elements
+
+2. header
+	2.1 topbar
+	2.2 navigation
+
+3. content
+	3.1 wpo-hero-slider
+	3.2 wpo-about-area
+	3.3 wpo-project-area
+	3.4 wpo-service-area
+	3.5 wpo-fun-fact-section
+	3.6 wpo-team-section
+	3.7 wpo-testimonial-area
+	3.8 wpo-blog-section
+
+4. wpo-footer
+
+5. Home-style-2
+   5.1 wpo-about-area-s2
+   5.2 wpo-project-area-s2
+
+ 6. Home-style-3 
+  	6.1 wpo-about-area-s3
+	6.2 wpo-service-area-s2
+	6.3 wpo-project-area-s3
+	6.4 wpo-pricing-section
+
+ 7. Home-style-3 
+  	7.1 wpo-about-area-s4
+	7.2 wpo-service-area-s3
+	7.3 wpo-pricing-section-s2
+	7.4 wpo-blog-section-s2
+
+ 8. Home-style-3 
+  	8.1 wpo-about-area-s4
+	
+9. wpo-about-section
+   9.1 wpo-fun-fact-section-s2
+
+10. wpo-service-single
+
+11. wpo-project-single
+
+12. wpo-cart-page-style
+
+13. wpo-checkout-page-style
+
+14. wpo-shop-page
+
+15. wpo-shop-single-page
+
+16. wpo-team-single
+
+17. wpo-blog-pg-section
+
+18. wpo-blog-single-section
+
+19. wpo-contact-pg-section
+
+20. error-404-section
+
+
+----------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+1. General
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+
+// components
+@import "components/section-title";
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+@import "components/page-title";
+@import "components/preloader";
+@import "components/blog-sidebar";
+@import "components/shop-sidebar";
+@import "components/pagination";
+
+// layout
+@import "layout/header";
+@import "layout/hero-slider";
+@import "layout/footer";
+
+// components
+@import "components/sticky-header";
+
+
+// page
+@import "page/home-default";
+
+@import "page/_home-style2";
+
+@import "page/_home-style3";
+
+@import "page/_home-style4";
+
+@import "page/_home-style5";
+
+
+
+@import "page/_about";
+
+@import "page/_service";
+
+@import "page/_project";
+
+@import "page/_coming-soon";
+
+@import "page/_cart";
+
+@import "page/_checkout";
+
+@import "page/_shop";
+
+@import "page/_shop-single";
+
+@import "page/_team-single";
+
+@import "page/_portfolio-single";
+
+@import "page/_blog";
+
+@import "page/_blog-single";
+
+@import "page/_contact";
+
+@import "page/_error-404";
+
+// Custom overlay styles for companies section (hover only)
+.wpo-project-item {
+  .wpo-project-img {
+    position: relative;
+    overflow: hidden;
+    
+    .wpo-project-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(26, 34, 85, 0.9);
+      opacity: 0;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 2;
+      
+      .wpo-project-overlay-content {
+        text-align: center;
+        color: #fff;
+        transform: translateY(20px);
+        transition: transform 0.3s ease;
+        
+        p {
+          margin: 0;
+          font-size: 14px;
+          line-height: 1.6;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  
+  &:hover {
+    .wpo-project-overlay {
+      opacity: 1;
+      
+      .wpo-project-overlay-content {
+        transform: translateY(0);
+      }
+    }
+  }
+}
+
+// Specific styles for delivered projects section
+.delivered-projects-section {
+  .wpo-project-item {
+    .wpo-project-img {
+      .wpo-project-overlay {
+        padding: 30px 50px; // Increased padding from left and right
+        
+        .wpo-project-overlay-content {
+          h3 {
+            margin: 0 0 15px 0;
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+          }
+          
+          p {
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.6;
+            font-weight: 400;
+            color: #fff;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+          }
+        }
+      }
+    }
+    
+    // White text for delivered projects bottom text
+    .wpo-project-text {
+      h2, span {
+        color: #fff !important;
+      }
+    }
+  }
+}
+
+// Specific styles for companies section - white text
+.wpo-project-area-s2:not(.delivered-projects-section) {
+  .wpo-project-item {
+    .wpo-project-text {
+      h2, span {
+        color: #fff !important;
+      }
+    }
+  }
+}
+
+
+
