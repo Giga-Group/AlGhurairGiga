@@ -85,7 +85,7 @@ const Management = [
         tImg: directorImg,
         name: 'Amir Amin Pardesi Giga',
         title: 'Vice-Chairman and CEO Giga Group Karachi',
-        bio: 'Mr. Amir Amin Pardesi serves as the CEO and vice Chairman Giga Group Karachi, overseeing day-to-day operations and ensuring the smooth execution of all projects. With extensive experience in project management and operations, he plays a crucial role in maintaining the high standards that Giga Group is known for.',
+        bio: 'Mr. Amir Amin Pardesi is the Vice Chairman and CEO of Giga Group Karachi, embodying visionary leadership and a relentless commitment to excellence. After completing his BBA in Dubai in 1999, he recognized the city’s emerging potential as a global real estate hub and contributed to the Group’s first major success with the delivery of a tower in Jumeirah Lake Towers by 2004. Inspired by his father, Haji Amin Pardesi—who envisioned Asia’s largest mall in Pakistan—Amir continues to revolutionize the real estate sector in Pakistan and the UAE through groundbreaking projects, innovative strategies, and entrepreneurial spirit.',
         experience: '15+ Years',
         email: 'amir.najeeb@gigagroup.com',
         phone: '+92 51 111 786 125',
