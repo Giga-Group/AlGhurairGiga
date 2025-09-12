@@ -1,6 +1,6 @@
 import presidentImg from '../images/management/amin.jpg'
 import ceoImg from '../images/management/najeeb.jpg'
-import directorImg from '../images/management/amin.jpg'
+import directorImg from '../images/management/amir.jpg'
 
 const Management = [
     {
@@ -83,9 +83,9 @@ const Management = [
     {
         Id: '3',
         tImg: directorImg,
-        name: 'Amir Najeeb Pardesi',
-        title: 'Director of Operations',
-        bio: 'Mr. Amir Najeeb Pardesi serves as the Director of Operations for Giga Group, overseeing day-to-day operations and ensuring the smooth execution of all projects. With extensive experience in project management and operations, he plays a crucial role in maintaining the high standards that Giga Group is known for.',
+        name: 'Amir Amin Pardesi',
+        title: 'CEO Giga Group Pakistan',
+        bio: 'Mr. Amir Amin Pardesi serves as the CEO Giga Group Pakistan, overseeing day-to-day operations and ensuring the smooth execution of all projects. With extensive experience in project management and operations, he plays a crucial role in maintaining the high standards that Giga Group is known for.',
         experience: '15+ Years',
         email: 'amir.najeeb@gigagroup.com',
         phone: '+92 51 111 786 125',
