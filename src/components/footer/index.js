@@ -77,7 +77,7 @@ const Footer = (props) =>{
                                     <li><i className="fi flaticon-location"></i>Giga City, Defence Housing Authority <br/> 
                                     Phase II Islamabad, Pakistan-44000</li>
                                     <li><i className="fi flaticon-telephone"></i>+92 (51) 111 244 244</li>
-                                    <li><i className="fi flaticon-email"></i>customercare@alghurairgiga.com</li>
+                                    <li><i className="fi flaticon-email"></i>info@alghurairgiga.com</li>
                                 </ul>
                             </div>
                         </div>
