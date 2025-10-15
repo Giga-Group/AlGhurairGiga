@@ -40,7 +40,7 @@ import wtcBanner from '../images/banner/wtc-banner.jpg'
 
 import gcbsImage from '../images/projects/gcbs-m1.jpeg'
 
-import gcbsBanner from '../images/banner/wtc-banner.jpg'
+import gcbsBanner from '../images/banner/gcbs-banner.jpg'
 import gcbsS1 from '../images/project-single/wtc-s1.jpg'
 import gcbsS2 from '../images/project-single/wtc-s2.jpg'
 import gcbsM1 from '../images/project-single/gcbs-m1.jpeg'
