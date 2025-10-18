@@ -16,7 +16,7 @@ const CompaniesPage = () => {
             <TransparentNavbar Logo={Logo} /> {/* New transparent navbar */}
             <PageTitle pageTitle={'Our Companies'} pagesub={'Companies'} backgroundImage={companiesBg}/>
             <CompanySection />
-            <DeliveredProjectsSection />
+            {/* <DeliveredProjectsSection /> */}
             <Footer />
             <Scrollbar />
         </div>
