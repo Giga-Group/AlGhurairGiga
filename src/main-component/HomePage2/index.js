@@ -36,8 +36,8 @@ const HomePage2 =() => {
                 textPosition="center"
                 title="Goldcrest Views"
                 subtitle="Giga City, Islamabad"
-                videoUrl = 'https://www.youtube.com/embed/NLjfFp7Lkdc?autoplay=1&mute=1&loop=1&playlist=NLjfFp7Lkdc&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3'
-                mobileVideoUrl = 'https://www.youtube.com/embed/NLjfFp7Lkdc?autoplay=1&mute=1&loop=1&playlist=NLjfFp7Lkdc&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3'
+                videoUrl = 'https://www.youtube.com/embed/5t1dJQAJ4-Y?autoplay=1&mute=1&loop=1&playlist=5t1dJQAJ4-Y&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3'
+                mobileVideoUrl = 'https://www.youtube.com/embed/5t1dJQAJ4-Y?autoplay=1&mute=1&loop=1&playlist=5t1dJQAJ4-Y&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3'
             />
             <About2/>
             {/* <ServiceSection sClass={'section-bg'}/> */}
