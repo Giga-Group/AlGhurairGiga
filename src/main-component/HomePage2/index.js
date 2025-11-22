@@ -11,6 +11,8 @@ import BlogSection from '../../components/BlogSection';
 import Footer from '../../components/footer';
 import Scrollbar from '../../components/scrollbar'
 import Logo from '../../images/logo.svg'
+import DeliveredProjectsSection from '../../components/DeliveredProjectsSection';
+
 
 
 const HomePage2 =() => {
@@ -34,14 +36,15 @@ const HomePage2 =() => {
                 textPosition="center"
                 title="Goldcrest Views"
                 subtitle="Giga City, Islamabad"
-                videoUrl = 'https://www.youtube.com/embed/trmn0svn7F0?autoplay=1&mute=1&loop=1&playlist=trmn0svn7F0&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3'
-                mobileVideoUrl = 'https://www.youtube.com/embed/bDnmFZQ-xJU?autoplay=1&mute=1&loop=1&playlist=bDnmFZQ-xJU&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3'
+                videoUrl = 'https://www.youtube.com/embed/NLjfFp7Lkdc?autoplay=1&mute=1&loop=1&playlist=NLjfFp7Lkdc&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3'
+                mobileVideoUrl = 'https://www.youtube.com/embed/NLjfFp7Lkdc?autoplay=1&mute=1&loop=1&playlist=NLjfFp7Lkdc&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3'
             />
             <About2/>
             {/* <ServiceSection sClass={'section-bg'}/> */}
             <ProjectSectionS2/>
             {/* <TeamSection/> */}
             <VideoTestimonials/>
+            <DeliveredProjectsSection />
             {/* <BlogSection/> */}
             <Footer/>
             <Scrollbar/>

@@ -21,7 +21,7 @@ const Footer = (props) =>{
                             <div className="logo widget-title">
                                 <Link onClick={ClickHandler} className="logo" to="/"><img src={Logo} alt=""/></Link>
                             </div>
-                            <p>Pakistan's largest developer of high-rise communities, formed through a joint venture of Al Ghurair and Giga Group, renowned U.A.E. conglomerates with a diverse portfolio in banking, gold, textiles, mining, and power.</p>
+                            <p>Al Ghurair Giga is a multi-national business conglomerate with an extensive portfolio. It has interest in Gold refining, Bullion Trade, Textile, and Real Estate sectors.</p>
                             <ul>
                                 <li>
                                     <a href="https://www.facebook.com/AGGPPL/" target="_blank" rel="noopener noreferrer">

@@ -19,7 +19,7 @@ class Hero2 extends Component {
             heroClass = '',
             showContactForm = true,
             title = 'Al Ghurair Giga',
-            subtitle = 'From luxury residences to world-class commercial spaces. 70 years of delivering iconic developments across Pakistan and the UAE.',
+            subtitle = 'Al Ghurair Giga is a multi-national business conglomerate with an extensive portfolio. It has interest in Gold refining, Bullion Trade, Textile, and Real Estate sectors.',
             showTitle = true,
             showSubtitle = true,
             showButton = false,
