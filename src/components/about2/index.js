@@ -30,7 +30,7 @@ const About2 = (props) => {
                     <div className="col-lg-6 col-md-12 colsm-12">
                         <div className="wpo-about-text">
                             <div className="wpo-about-title">
-                                <span>About Al Ghurair Giga Group</span>
+                                <span>About Al Ghurair Giga Group </span>
                                 <h2>Building Dreams, Shaping Communities Since 1956</h2>
                             </div>
                             <p>Al Ghurair Giga Group is a trusted name in real estate development with over 60 years of excellence. Founded by Haji Abdul Rahim Giga in 1956, what started as one bold step has evolved into a giant enterprise that continues to grow and branch out across the globe.</p>
