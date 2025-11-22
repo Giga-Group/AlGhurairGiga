@@ -31,7 +31,7 @@ const About2 = (props) => {
                         <div className="wpo-about-text">
                             <div className="wpo-about-title">
                                 {/* <span>About Al Ghurair Giga Group </span> */}
-                                <h3>About Al Ghurair Giga Group</h3>
+                                <h3>About Al Ghurair Giga</h3>
                             </div>
                            <p>Al Ghurair Giga Pakistan (Pvt.) Ltd (“Al Ghurair Giga”) is a leading multinational business conglomerate with deep roots in both the Middle East and Pakistan. We operate across a diversified portfolio of industries, including real estate development, textiles, gold refining, and bullion trade, reflecting our broad and integrated vision for sustainable growth. 
                            </p>
