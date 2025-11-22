@@ -30,17 +30,24 @@ const About2 = (props) => {
                     <div className="col-lg-6 col-md-12 colsm-12">
                         <div className="wpo-about-text">
                             <div className="wpo-about-title">
-                                <span>About Al Ghurair Giga Group </span>
-                                <h2>Building Dreams, Shaping Communities Since 1956</h2>
+                                {/* <span>About Al Ghurair Giga Group </span> */}
+                                <h3>About Al Ghurair Giga Group</h3>
                             </div>
-                            <p>Al Ghurair Giga Group is a trusted name in real estate development with over 60 years of excellence. Founded by Haji Abdul Rahim Giga in 1956, what started as one bold step has evolved into a giant enterprise that continues to grow and branch out across the globe.</p>
-                            <ul className="ab-list">
+                           <p>Al Ghurair Giga Pakistan (Pvt.) Ltd (“Al Ghurair Giga”) is a leading multinational business conglomerate with deep roots in both the Middle East and Pakistan. We operate across a diversified portfolio of industries, including real estate development, textiles, gold refining, and bullion trade, reflecting our broad and integrated vision for sustainable growth. 
+                           </p>
+                           <div className="wpo-about-title">
+                                <h3>Our Heritage</h3>
+                            </div>
+                           <p>Founded in 1956 by Haji Abdul Rahim Giga, the Giga Group began its journey in Dubai’s textile sector. Over the decades, the group expanded significantly, building a strong presence in key international markets and forging strategic partnerships — most notably with Al Ghurair Group, a well-established conglomerate in the UAE. Our vision is inspired by the remarkable transformation of Dubai under the visionary leadership of His Highness Sheikh Mohammed bin Rashid Al Maktoum. His commitment to innovation, excellence, and world-class development has set global benchmarks in urban planning, governance, and quality of life. At Al Ghurair Giga, we deeply admire the progress Dubai has achieved under his leadership and the standards it embodies.
+                           </p>
+                           <p>Drawing from these lessons, we aspire to bring a similar level of sophistication, reliability, and modern lifestyle to Pakistan, creating communities that reflect global best practices, elevate living standards, and contribute to the country’s long-term growth. Our mission is to deliver developments that uphold the same spirit of ambition, resilience, and forward-thinking that defines Dubai’s success story.</p>
+                            {/* <ul className="ab-list">
                                 <li>Over 60+ years of business excellence and premium quality development</li>
                                 <li>5,000+ employees worldwide delivering world-class projects</li>
                                 <li>10M+ sq ft of commercial & residential space with 99.99% customer satisfaction</li>
                                 <li>Iconic projects like Goldcrest Views and Giga Mall redefining urban living</li>
-                            </ul>
-                            <div className="btns">
+                            </ul> */}
+                            {/* <div className="btns">
                                 <Link to="/about" onClick={ClickHandler} className="theme-btn">Discover More</Link>
                                 <ul>
                                     <li className="video-holder">
@@ -50,7 +57,7 @@ const About2 = (props) => {
                                         Watch Our Video
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
