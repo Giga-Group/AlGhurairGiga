@@ -112,9 +112,14 @@
 
 
 @mixin linear-gradient-bg($direction, $gradients...) {
+    $new-direction: $direction;
+    @if $direction == left { $new-direction: to right; }
+    @else if $direction == right { $new-direction: to left; }
+    @else if $direction == top { $new-direction: to bottom; }
+    @else if $direction == bottom { $new-direction: to top; }
     background: -webkit-linear-gradient($direction, $gradients);
     background: -moz-linear-gradient($direction, $gradients);
     background: -o-linear-gradient($direction, $gradients);
     background: -ms-linear-gradient($direction, $gradients);
-    background: linear-gradient($direction, $gradients);
+    background: linear-gradient($new-direction, $gradients);
 }
