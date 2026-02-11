@@ -26,7 +26,7 @@ const ProductSinglePage =(props) => {
     
     useEffect(() => {
         setProduct(Allproduct.filter(Allproduct => Allproduct.id === Number(id)))
-    }, []);
+    }, [Allproduct, id]);
     
     const item = product[0];
 

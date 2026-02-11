@@ -4,10 +4,7 @@ import TransparentNavbar from '../../components/TransparentNavbar' // New transp
 import Hero2 from '../../components/hero2';
 import About2 from '../../components/about2';
 import ProjectSectionS2 from '../../components/ProjectsS2';
-import ServiceSection from '../../components/Services';
-import TeamSection from '../../components/TeamSection';
 import VideoTestimonials from '../../components/VideoTestimonials';
-import BlogSection from '../../components/BlogSection';
 import Footer from '../../components/footer';
 import Scrollbar from '../../components/scrollbar'
 import Logo from '../../images/logo.svg'

@@ -27,7 +27,8 @@
 			margin-right: 0;
 		}
 
-		li a {
+		li a,
+		li button.pagination-link {
 			background-color: transparent;
 			width: 50px;
 			height: 50px;
@@ -38,6 +39,9 @@
 			color: $dark-gray;
 			background: transparentize($theme-primary-color, .9);
 			display: block;
+			border: none;
+			cursor: pointer;
+			text-align: center;
 
 			@include media-query(991px) {
 				width: 40px;
@@ -49,7 +53,9 @@
 		}
 
 		.active a,
-		li a:hover {
+		.active button.pagination-link,
+		li a:hover,
+		li button.pagination-link:hover {
 			background: $theme-primary-color;
 			border-color: $theme-primary-color;
 			color: $white;

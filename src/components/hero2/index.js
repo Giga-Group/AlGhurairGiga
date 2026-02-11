@@ -6,12 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import RegistrationForm from '../RegistrationForm';
 import './hero2.css';
 
-import hero1 from '../../images/slider/slide-1.jpg'
-import hero2 from '../../images/slider/slide-2.jpg'
-import hero3 from '../../images/slider/slide-3.jpg'
-
-
-
 class Hero2 extends Component {
     render() {
         // Default props
