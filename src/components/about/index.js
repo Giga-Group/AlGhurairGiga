@@ -5,7 +5,7 @@ import VideoModal from '../../components/ModalVideo'
 
 const About = (props) => {
     const ClickHandler = () =>{
-        window.scrollTo(10, 0);
+        window.scrollTo(10, 0); 
      }
     return(
         <div className={`wpo-about-area section-padding ${props.abClass}`}>
